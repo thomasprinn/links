@@ -28,15 +28,25 @@
       }
       .link {
         background-color: #ff8906;
+        display: flex;
+        align-items: center;
       }
       .link a {
         color: #fffffe;
         text-decoration: none;
+        text-align: center;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
       }
       
     </style>
   </head>
   <body>
+    <div class="items">
     <div class="banner">
       <img src="/thumbnails/pthomasprofile.jpg" alt="Princess Thomas headshot" class="banner-image">
     </div>
@@ -68,6 +78,6 @@
       <img src="thumbnails/instagram-icon.png" alt="Black Instagram icon" class="thumbnail">
       <a target="_blank" href="instagram.com/gildedsundial/"> Instagram</a>
     </div>
-
+    </div>
   </body>
 </html>
